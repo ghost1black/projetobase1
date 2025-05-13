@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    text-align: center;
+}
+header{
+    background-color: rgb(0, 174, 255);
+}
+h5{
+    text-align: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+}
+header{
+    background-color: chartreuse;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    margin: 50xp auto; 
+    width: 400xp;
+}
+nav{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 35xp;
+}
+
+fieldset{
+    margin: 40px auto 0 auto;
+    display: block;
+    min-width: 300xp;
+    padding: 20xp;
+    text-align: center;
+}
+footer{
+    position: absolute;
+    font: absolute;
+    left: 0; bottom: 0; width: 100%
+}
