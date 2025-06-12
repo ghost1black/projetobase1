@@ -50,14 +50,170 @@ else if(ponto>=1001 && ponto<=500){
 
     else{
       alert("Seu NIvel é mestre!! Bónus de +2000XP")
-    }*/
-   let  valorbasico = 25;
-   let valorpremium = 40;
-   let valorultra = 60;
-   let tipassinatura = prompt("digite a sua assinatura:")
-   let quantitelas = prompt ("digite a quatidade de tela que deseja:")
-    if(tipoassinanatura == "básico"){
-        if(quantitelas >=1 && quantitelas <=2){
-            
-        }
-            alert("Seu plano teré o valor de "+valorbasico+ "R$")
+    } 
+  
+let basico = 25;
+let premium = 40;
+let ultra = 60;
+let preco1 = 5;
+let preco2 = 7.5;
+let preco3 = 10;
+
+let assinatura = prompt("Qual seu tipo de assinatura?");
+let telas = prompt("Quantas telas simultâneas");
+
+if (assinatura == 'basico') {
+    if (telas > 1 && telas < 3) {
+        alert("Seu plano irá custar R$ " + (basico + preco1));
+    } else if (telas >= 3 && telas < 4) {
+        alert("Seu plano irá custar R$ " + (basico + preco2));
+    } else if (telas >= 4) {
+        alert("Seu plano irá custar R$ " + (basico + preco3));
+    }
+}
+
+else if (assinatura == 'premium') {
+    if (telas > 1 && telas < 3) {
+        alert("Seu plano irá custar R$ " + (premium + preco1));
+    } else if (telas >= 3 && telas < 4) {
+        alert("Seu plano irá custar R$ " + (premium + preco2));
+    } else if (telas >= 4) {
+        alert("Seu plano irá custar R$ " + (premium + preco3));
+    }
+}
+
+else if (assinatura == 'ultra') {
+    if (telas > 1 && telas < 3) {
+        alert("Seu plano irá custar R$ " + (ultra + preco1));
+    } else if (telas >= 3 && telas < 4) {
+        alert("Seu plano irá custar R$ " + (ultra + preco2));
+    } else if (telas >= 4) {
+        alert("Seu plano irá custar R$ " + (ultra + preco3));
+        let basico = 25;
+let premium = 40;
+let ultra = 60;
+let preco1 = 5;
+let preco2 = 7.5;
+let preco3 = 10;
+
+let assinatura = prompt("Qual seu tipo de assinatura?");
+let telas = prompt("Quantas telas simultâneas");
+
+if (assinatura == 'basico') {
+    if (telas > 1 && telas < 3) {
+        alert("Seu plano irá custar R$ " + (basico + preco1));
+    } else if (telas >= 3 && telas < 4) {
+        alert("Seu plano irá custar R$ " + (basico + preco2));
+    } else if (telas >= 4) {
+        alert("Seu plano irá custar R$ " + (basico + preco3));
+    }
+}
+
+else if (assinatura == 'premium') {
+    if (telas > 1 && telas < 3) {
+        alert("Seu plano irá custar R$ " + (premium + preco1));
+    } else if (telas >= 3 && telas < 4) {
+        alert("Seu plano irá custar R$ " + (premium + preco2));
+    } else if (telas >= 4) {
+        alert("Seu plano irá custar R$ " + (premium + preco3));
+    }
+}
+
+else if (assinatura == 'ultra') {
+    if (telas > 1 && telas < 3) {
+        alert("Seu plano irá custar R$ " + (ultra + preco1));
+    } else if (telas >= 3 && telas < 4) {
+        alert("Seu plano irá custar R$ " + (ultra + preco2));
+    } else if (telas >= 4) {
+        alert("Seu plano irá custar R$ " + (ultra + preco3));
+    }
+}
+
+let daysOfweek = ["caio", "samuel"];
+console.log(daysOfweek[1])
+console.log(daysOfweek.length)
+let listdiver = ["Caio",1,2,5,"Escola",false]
+ console.log(listdiver[3])
+let nomedoaluno = prompt("Digite o nome do novo aluno; ") 
+
+daysOfweek.push(nomedoaluno)
+console.log ( "Os aluno da escola são: " +daysOfweek)
+
+
+let daysOfweek = ["caio", "samuel"];
+console.log(daysOfweek[1])
+console.log(daysOfweek.length)
+let listdiver = ["Caio",1,2,5,"Escola",false]
+ console.log(listdiver[3])
+let nomedoaluno = prompt("Digite o nome do novo aluno; ") 
+daysOfweek.unshift("Caique", "lyan", "Clara")
+daysOfweek.push(nomedoaluno)
+daysOfweek.pop()
+console.log ( "Os aluno da escola são: " +daysOfweek)
+ 
+let daysOfweek = ["caio", "samuel"] 
+let nomedoaluno = pompt("Digite onome do novo aluno")
+daysOfweek.unshift("wesley", "caio", ) 
+daysOfweek.push(nomedoaluno)
+daysOfweek.unshift("vitoria")
+daysOfweek.shift()
+console.log("Os aluno ds escola são: "+daysOfweek) 
+daysOfweek.sort()
+daysOfweek.reverse()
+console.log(daysOfweek.indexOf("samuel"))
+
+const aluno=["Ana", "Bruno", "carlos", "Diana"];
+for (const aluno of alunos){
+  console.log("Olá, "+aluno +"!");
+}
+
+let number = Number(prompt("Digite o número que deseje somar aos anteriores"))
+let numberfinal =0
+  while(number != 0){
+    numberfinal = numberfinal+number 
+    number = Number(prompt("Digite o número que deseje somar aos anteriores"))
+console.log(number+number)
+
+  }
+  console.log("o numero final é: "+numberfinal)
+
+  let number = Number(prompt("Digite o número que deseje somar aos anteriores"))
+let numberfinal =0
+  while(number != 0){
+    numberfinal = numberfinal+number 
+    number = Number(prompt("Digite o número que deseje somar aos anteriores"))
+console.log(number+number)
+
+  }
+  console.log("o numero final é: "+numberfinal)
+
+ for (let i=1;i<12; i+=2){
+console.log(i)
+ }
+
+function saudar(){
+alert("Seja bem-vindo ao sistema")
+}
+saudar()
+ function dobrarNumero(numero){
+ return numero *2
+}
+ let resultado = dobraNumero(20)
+alert("0 resultado: "+  resultado)
+
+function cumprimenta(nome){
+     alert("oi,"+nome+" tenha um excelente dia!")
+} 
+let nomedousurio = prompt("Digite o seu nome:")
+cumprimenta(nomedousurio)
+function
+contagemRegressiva(numero){ 
+    alert(numero)
+    if(numero ===0){
+        alert("Chegou")
+         }
+       contagemRegressiva(numero-1)
+ } 
+contagemRegressiva(5)*/
+
+
